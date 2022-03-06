@@ -1,0 +1,85 @@
+* {
+    font-family: "Atkinson Hyperlegible";
+    box-sizing: border-box;
+  }
+  .Game {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #152938;
+    color: #fff;
+  }
+  .title {
+    font-size: 40px;
+    font-weight: 700px;
+  }
+  .card {
+    top: unset;
+    position: relative;
+    width: 654px;
+    height: 559px;
+    padding: 56px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .select-game-theme span {
+    display: block;
+    color: #7191a5;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    user-select: none;
+  }
+  .default {
+    color: #fcfcfc;
+    background: #324d61;
+    height: 52px;
+    font-size: 26px;
+    user-select: none;
+    font-weight: 700;
+    border-radius: 26px;
+    margin: 5.5px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 90ms ease-out;
+  }
+  button {
+    cursor: pointer;
+    width: 47%;
+    border: none;
+    transition: background-color 90ms ease-out;
+    color: #fcfcfc;
+    background: #bcced9;
+    margin: 5.5px;
+    height: 52px;
+    font-size: 26px;
+    user-select: none;
+    font-weight: 700;
+    border-radius: 26px;
+    color: #fcfcfc;
+    background: #bcced9;
+    margin: 5.5px;
+  }
+  .non-active:hover {
+    background-color: #6e8a9e;
+  }
+  .start-game {
+    user-select: none;
+    font-weight: 700;
+    border-radius: 26px;
+    height: 48px;
+    font-size: 18px;
+    color: #fcfcfc;
+    background: #6898ce;
+    border: none;
+    transition: background-color 90ms ease-out;
+    width: 100%;
+  }
+  
